@@ -6,7 +6,13 @@ function entrarnabalada (nome, idade ){
     }
 }
 
-console.log (entrarnabalada ("maria",21))
-console.log (entrarnabalada ("rafael",30))
-console.log (entrarnabalada ("pedro",13))
-console.log (entrarnabalada ("rafael",18))
+let fila = [
+     { nome: "maria", idade: 21 },
+     { nome: "rafael", idade: 30 },
+     { nome: "pedro", idade: 13 },
+     { nome: "rafael", idade: 18 }
+];
+
+for (let pessoa of fila) {
+    console.log(entrarnabalada(pessoa.nome, pessoa.idade));
+}
