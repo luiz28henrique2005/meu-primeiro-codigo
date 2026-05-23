@@ -1,0 +1,12 @@
+function entrarnabalada (nome, idade ){
+    if (idade >= 21 ) {
+        return `${nome} pode entrar na balada`; 
+ } else {  
+ return  `${nome} não pode entrar na balada`;
+    }
+}
+
+console.log (entrarnabalada ("maria",21))
+console.log (entrarnabalada ("rafael",30))
+console.log (entrarnabalada ("pedro",13))
+console.log (entrarnabalada ("rafael",18))

@@ -1,0 +1,7 @@
+function teste() {
+ return ("gritei");
+
+}
+
+let x = teste();
+console.log("recebi", x);
