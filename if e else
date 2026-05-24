@@ -1,0 +1,19 @@
+    function entrarnobaile(nome, anodenascimento)  { 
+    if (anodenascimento<= 2010) {   
+        return `${nome}, nascido em ${anodenascimento}, pode entrar no baile`; 
+ 
+    } else {
+            return `${nome}, nascido em ${anodenascimento}, não pode entrar no baile`;
+        
+    }
+  }
+  let fila = [
+    { nome: 'maria', anodenascimento: 2020 },
+    { nome: 'rafael', anodenascimento: 1990 },
+    { nome: 'pedro', anodenascimento: 2005 },
+    { nome: 'rafael', anodenascimento: 2003 }
+  ];
+
+    for (let pessoa of fila) {
+    console.log(entrarnobaile(pessoa.nome, pessoa.anodenascimento));
+ }

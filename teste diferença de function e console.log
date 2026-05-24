@@ -1,5 +1,5 @@
 function teste() {
- return ("gritei");
+ console.log  ("gritei");
 
 }
 
