@@ -1,0 +1,15 @@
+let fazersozinho = (complicado) => {
+    if (complicado) {
+        console.log('consegui fazer sozinho');
+    } else {
+        console.log('não consegui fazer sozinho');
+    }
+};
+
+
+
+
+
+
+fazersozinho(true);
+fazersozinho(false);
